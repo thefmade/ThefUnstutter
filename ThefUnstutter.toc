@@ -1,0 +1,6 @@
+## Interface: 20400
+## Title: ThefUnstutter
+## Notes: Reduces the terrain distance variable when entering/leaving an instance to prevent stuttering.
+## Author: Thef
+
+ThefUnstutter.lua
