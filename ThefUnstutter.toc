@@ -1,6 +1,7 @@
 ## Interface: 20400
 ## Title: ThefUnstutter
-## Notes: Reduces the terrain distance variable when entering/leaving an instance to prevent stuttering.
+## Version: 0.1.0
+## Notes: Changes the value of the terrain distance variable when entering/leaving an instance to prevent stuttering.
 ## Author: Thef
 
 ThefUnstutter.lua
