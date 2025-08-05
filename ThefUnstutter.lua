@@ -83,7 +83,9 @@ ThefUnstutterFrame:SetScript('OnEvent', function(self, event, arg1)
 
     local inInstance = isInstance ~= nil
 
-    if inInstance and (tonumber(GetCVar("farclip")) > tonumber(farclip["near"])) then
+    if inInstance then
+        if (tonumber(GetCVar("farclip")) == tonumber(farclip["near"])) then return; end
+
         SetCVar("farclip", farclip["near"])
         ThefUnstutter_Log('Terrain distance reduced.')
     else
